@@ -73,3 +73,10 @@ The following may be used as sample input and output datasets.
     }
 ]
 ```
+
+## Compiling and running this example
+
+This code is provided with a maven POM file, as well as an Eclipse project files for easy import.  An executable JAR will be created using the maven install goal when run against this POM. In order to run the generated JAR, please use the following:
+```
+java -jar paging-mission-control-0.0.1-SNAPSHOT-shaded.jar <input_file>
+```
